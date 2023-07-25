@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>les-9, BEM</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="main-hreader">
+      <div class="logo">
+        <a class="logo__link" href="#">
+          <img class="logo__img" src="./assets/logo.svg" alt="Logo" />
+        </a>
+      </div>
+
+      <nav class="main-nav">
+        <ul class="main-nav__list">
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="#">home</a>
+          </li>
+          <li>
+            <a href="#"></a>
+          </li>
+          <li>
+            <a href="#"></a>
+          </li>
+          <li>
+            <a href="#"></a>
+          </li>
+          <li>
+            <a href="#"></a>
+          </li>
+        </ul>
+      </nav>
+
+      <h1 class="main-hreader__title">Lorem ipsum dolor sit amet.</h1>
+    </header>
+
+    <main class="main-content">
+      <form class="form">
+        <header class="form__header">
+          <h3 class="form__title">Registration</h3>
+        </header>
+      </form>
+
+      <form class="form form-login">
+        <header class="form__header form-login__header">
+          <h3 class="form__title">Login</h3>
+        </header>
+
+        <section class="form__content">
+          <div class="form__group form__group_inline">
+            <label class="form__label">Email</label>
+            <input type="email" />
+            <div class="form__error-massage-wrapper">
+              <div class="form__error-massage">Invalid email</div>
+              <div>Wromg email</div>
+            </div>
+          </div>
+
+          <div class="form__group">
+            <label>Password</label>
+            <input type="password" />
+          </div>
+        </section>
+
+        <footer>
+          <button class="btn btn_primary form__btn">Login</button>
+        </footer>
+      </form>
+    </main>
+
+    <footer class="main-footer">
+      <h3 class="d-flex align-center"></h3>
+    </footer>
+  </body>
+</html>
